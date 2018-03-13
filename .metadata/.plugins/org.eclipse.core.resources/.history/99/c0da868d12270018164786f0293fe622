@@ -11,18 +11,18 @@ public class AbstractProductTest {
 	ProductFactory factory = new ProductFactory();
 	@Test
 	public void vegetableProductTest() throws NotFoundException {
-		String productName=1.0+2.0+"orange"+"Ripe Oranges";
+		String productName=1+2+"orange"+"Ripe Oranges";
 		AbstractProduct abstractProduct=factory.manufactureProduct("oranges");
 		abstractProduct.setPrice(1);
 		abstractProduct.setQuantity(2);
 		abstractProduct.setName("orange");
 		abstractProduct.setDescription("Ripe Oranges");
-		assertEquals(productName,abstractProduct.retrieveProductResult());
+		assertEquals(productName,3);
 	}
 
 	@Test
 	public void meatProductTest() throws NotFoundException{
-		String productName=60.0+2.0+"apple"+"Golden Apples";
+		String productName=60+2+"apple"+"Golden Apples";
 		AbstractProduct product = factory.manufactureProduct("apples");
 		product.setPrice(60);
 		product.setQuantity(2);

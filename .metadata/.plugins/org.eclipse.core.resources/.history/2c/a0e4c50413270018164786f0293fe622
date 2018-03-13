@@ -11,7 +11,7 @@ public class AbstractProductTest {
 	ProductFactory factory = new ProductFactory();
 	@Test
 	public void vegetableProductTest() throws NotFoundException {
-		String productName=1.0+2.0+"orange"+"Ripe Oranges";
+		String productName=1+2+"orange"+"Ripe Oranges";
 		AbstractProduct abstractProduct=factory.manufactureProduct("oranges");
 		abstractProduct.setPrice(1);
 		abstractProduct.setQuantity(2);
