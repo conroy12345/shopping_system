@@ -1,0 +1,17 @@
+<?xml version = "1.0"?>
+<products>
+   <product>
+      <id>1</id>
+      <name>vegetable</name>
+      <price>5</price>
+      <description>cabbage</description>
+   </product>
+   
+   <product>
+      <id>2</id>
+      <name>meat</name>
+      <price>5</price>
+      <description>lamb</description>
+   </product>
+   
+</products>

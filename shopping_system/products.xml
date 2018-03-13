@@ -1,0 +1,17 @@
+<?xml version = "1.0"?>
+<products>
+   <product>
+      <id>1</id>
+      <name>apple</name>
+      <price>0.60</price>
+      <description>Golden Apples</description>
+   </product>
+   
+   <product>
+      <id>2</id>
+      <name>orange</name>
+      <price>25</price>
+      <description>Ripe Oranges</description>
+   </product>
+   
+</products>
