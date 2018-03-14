@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ProductFactoryTest" project="shopping_system" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="org.shopping.product.factory.ProductFactoryTest" time="0.039">
-    <testcase name="metProductTest" classname="org.shopping.product.factory.ProductFactoryTest" time="0.034"/>
-    <testcase name="vegetableProductTest" classname="org.shopping.product.factory.ProductFactoryTest" time="0.005"/>
-  </testsuite>
-</testrun>
